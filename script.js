@@ -1,5 +1,7 @@
 var cards = document.querySelectorAll(".item")
 
+// queryselector returns the nodelist so i can use foreach() in nodelist but for using map() i have to destructure it [...cards] bcz i cant use map in node list 
+
 var firstflip = false;
 var secondflip=false;
 var firstcard;
